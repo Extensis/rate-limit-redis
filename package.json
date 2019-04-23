@@ -1,6 +1,6 @@
 {
-  "name": "rate-limit-redis",
-  "version": "1.5.0",
+  "name": "@extensis/rate-limit-redis",
+  "version": "1.5.2",
   "description": "Provides a Redis store for the express-rate-limit RateLimit middleware.",
   "main": "lib/redis-store.js",
   "types": "index",
@@ -9,14 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wyattjoh/rate-limit-redis.git"
+    "url": "git+https://github.com/Extensis/rate-limit-redis.git"
   },
   "author": "Wyatt Johnson <wyattjoh@gmail.com>",
+  "contributors": [
+    "Steven Russell <srussell@extensis.com>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wyattjoh/rate-limit-redis/issues"
+    "url": "https://github.com/Extensis/rate-limit-redis/issues"
   },
-  "homepage": "https://github.com/wyattjoh/rate-limit-redis#readme",
+  "homepage": "https://github.com/Extensis/rate-limit-redis#readme",
   "devDependencies": {
     "express-rate-limit": "^3.3.2",
     "grunt": "^1.0.1",
