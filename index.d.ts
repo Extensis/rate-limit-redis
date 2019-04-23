@@ -5,7 +5,7 @@
 // TypeScript Version: 3.3.3
 
 
-declare module 'rate-limit-redis' {
+declare module '@extensis/rate-limit-redis' {
     import RateLimit = require('express-rate-limit');
     import Redis     = require('redis');
 
